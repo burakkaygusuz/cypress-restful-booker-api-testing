@@ -1,5 +1,5 @@
 {
-  "name": "cypress-restful-booker-api",
+  "name": "cypress-restful-booker-api-testing",
   "version": "1.0.0",
   "description": "Restful Booker API testing using cypress.io",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burakkaygusuz/cypress-restful-booker-api.git"
+    "url": "git+https://github.com/burakkaygusuz/cypress-restful-booker-api-testing.git"
   },
   "keywords": [
     "cypress",

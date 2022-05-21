@@ -2,7 +2,7 @@
 
 [![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&style=for-the-badge)](https://www.cypress.io)
 
-The demo project demonstrates how to perform API testing using cypress. [Restful Booker API](https://restful-booker.herokuapp.com) is used as an example API.
+[Restful Booker API](https://restful-booker.herokuapp.com) testing using cypress.io.
 
 ## Prerequisites
 
@@ -18,13 +18,13 @@ Make sure you have installed all the following prerequisites on your development
 - Clone the repository.
 
 ```shell
-git clone git@github.com:burakkaygusuz/cypress-restful-booker-api.git
+git clone git@github.com:burakkaygusuz/cypress-restful-booker-api-testing.git
 ```
 
 - Change the directory.
 
 ```shell
-cd cypress-restful-booker-api
+cd cypress-restful-booker-api-testing
 ```
 
 - Run the test.
