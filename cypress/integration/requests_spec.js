@@ -23,7 +23,7 @@ describe('Booker', () => {
   it('should create a new booking', () => {
     cy.request({
       method: 'POST',
-      url: 'booking',
+      url: '/booking',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -59,7 +59,7 @@ describe('Booker', () => {
           const bookingid = win.sessionStorage.getItem('bookingid');
           cy.request({
             method: 'PUT',
-            url: `booking/${bookingid}`,
+            url: `/booking/${bookingid}`,
             headers: {
               'Content-Type': 'application/json',
               Accept: 'application/json',
@@ -94,7 +94,7 @@ describe('Booker', () => {
           const bookingid = win.sessionStorage.getItem('bookingid');
           cy.request({
             method: 'PATCH',
-            url: `booking/${bookingid}`,
+            url: `/booking/${bookingid}`,
             headers: {
               'Content-Type': 'application/json',
               Accept: 'application/json',
@@ -118,7 +118,7 @@ describe('Booker', () => {
       const bookingid = win.sessionStorage.getItem('bookingid');
       cy.request({
         method: 'GET',
-        url: `booking/${bookingid}`,
+        url: `/booking/${bookingid}`,
         headers: {
           'Content-Type': 'application/json',
         },
@@ -154,7 +154,7 @@ describe('Booker', () => {
           const bookingid = win.sessionStorage.getItem('bookingid');
           cy.request({
             method: 'DELETE',
-            url: `booking/${bookingid}`,
+            url: `/booking/${bookingid}`,
             headers: {
               'Content-Type': 'application/json',
               Cookie: `token=${token.value}`,
