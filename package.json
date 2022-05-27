@@ -15,8 +15,6 @@
   },
   "keywords": [
     "cypress",
-    "restful",
-    "booker",
     "api",
     "testing"
   ],
@@ -27,6 +25,9 @@
     "@faker-js/faker": "^7.0.1",
     "cypress": "^9.7.0",
     "esbuild": "^0.14.39",
+    "eslint": "^8.16.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.12.1",
     "prettier": "2.6.2"
   }
 }
