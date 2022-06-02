@@ -1,6 +1,6 @@
 # Cypress Restful Booker API Testing
 
-[![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&style=for-the-badge)](https://www.cypress.io)
+[![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&logoColor=33ff99&style=for-the-badge)](https://www.cypress.io)
 
 [Restful Booker API](https://restful-booker.herokuapp.com) testing using cypress.io.
 

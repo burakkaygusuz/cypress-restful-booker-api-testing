@@ -1,5 +1,0 @@
-{
-  "baseUrl": "https://restful-booker.herokuapp.com",
-  "responseTimeout": 30000,
-  "video": false
-}
